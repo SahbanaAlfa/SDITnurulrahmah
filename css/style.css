@@ -1978,5 +1978,95 @@ padding-bottom: 20px;
     font-size: 12px;
   }
 }
+/* Bingkai Foto */
+.photo-box-pre {
+  flex: 1 1 calc(100% - 20px); /* Maksimal 4 kolom di layar besar */
+  background-color: #f5f5f5;
+  border: 2px solid #08573A;
+  border-radius: 8px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Gambar di Dalam Bingkai */
+.photo-box-pre img {
+  width: 100%;
+  height: 100%; /* Atur tinggi agar seragam */
+  object-fit: cover; /* Memotong gambar agar sesuai dengan kotak */
+  display: block;
+  border-bottom: 2px solid #08573A;
+}
+/* Judul Foto */
+.photo-box-pre h4 {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #08573A;
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.photo-box-pre:hover {
+  transform: scale(1.05);
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .photo-box-pre {
+    flex: 1 1 calc(50% - 20px); /* Maksimal 2 kolom di layar sedang */
+  }
+
+  .photo-box-pre h4 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo-box-pre {
+    flex: 1 1 100%; /* Satu kolom di layar kecil */
+  }
+
+  .photo-box-pre h4 {
+    font-size: 12px;
+  }
+}
+/* Kontainer kotak */
+.responsive-boxes-1{
+    display: flex; /* Menggunakan Flexbox */
+    flex-wrap: wrap; /* Bungkus ke baris baru jika ruang tidak cukup */
+    gap: 20px; /* Jarak antar kotak */
+    justify-content: center; /* Posisikan kotak di tengah */
+    margin: 20px auto; /* Jarak luar atas dan bawah */
+    max-width: 50%; /* Batas lebar kontainer */
+}
+
+/* Kotak */
+.responsive-boxes-1 .box {
+    flex: 1 1 calc(20% - 20px); /* Lebar 20% dengan jarak */
+    background-color: #08573A; /* Warna latar belakang hijau */
+    color: #FFAD00; /* Warna teks putih */
+    border-radius: 8px; /* Radius sudut */
+    padding: 20px; /* Jarak dalam kotak */
+    text-align: center; /* Teks rata tengah */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan */
+    min-width: 150px; /* Lebar minimum */
+    font-size: 30px; /* Ukuran font untuk kotak biasa */
+    font-weight: bold; /* Font normal */
+}
+
+/* Responsif untuk tablet */
+@media (max-width: 768px) {
+    .responsive-boxes-1 .box {
+        flex: 1 1 calc(45% - 20px); /* Dua kotak per baris */
+    }
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 480px) {
+    .responsive-boxes-1 .box {
+        flex: 1 1 100%; /* Satu kotak per baris */
+    }
+}
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
 
