@@ -31,43 +31,82 @@
 
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 	 <style>
-        
+    .table-container {
+        max-width: 100%; /* Sesuaikan dengan layar */
+        max-height: 300px;
+        overflow-x: auto; /* Scroll horizontal di perangkat kecil */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
 
-        .table-container {
-            max-width: 600px; /* Lebar maksimum tabel */
-            max-height: 300px; /* Tinggi maksimum tabel */
-            overflow: auto; /* Mengaktifkan scroll jika konten lebih besar */
-            border: 1px solid #ccc; /* Border luar tabel */
-            border-radius: 8px;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+        word-wrap: break-word; /* Menghindari teks memanjang */
+    }
+
+    th {
+        background-color: #f4f4f4;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #eaeaea;
+    }
+
+    /* Media query untuk layar kecil */
+    @media (max-width: 768px) {
+        th, td {
+            font-size: 14px; /* Ukuran font lebih kecil */
+            padding: 8px;
+        }
+
+        .header-information {
+            text-align: center;
+        }
+
+        .menu-area-main {
+            display: flex;
+            flex-direction: column; /* Tumpukan menu secara vertikal */
+            align-items: center;
+        }
+
+        .long-box {
+            font-size: 18px; /* Ukuran lebih kecil */
+        }
+    }
+
+    @media (max-width: 480px) {
+        th, td {
+            font-size: 12px; /* Ukuran font lebih kecil */
+            padding: 6px;
+        }
+
+        .logo img {
+            width: 80%; /* Perkecil logo */
+        }
+
+        .menu-area-main {
+            font-size: 12px; /* Ukuran font menu lebih kecil */
         }
 
         table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 600px; /* Lebar minimum tabel untuk contoh */
+            font-size: 12px;
         }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border: 1px solid #ddd;
-        }
-
-        th {
-            background-color: #f4f4f4;
-            position: sticky; /* Membuat header tetap terlihat saat scroll */
-            top: 0;
-            z-index: 2;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        tr:hover {
-            background-color: #eaeaea;
-        }
-    </style>
+    }
+</style>
 </head>
 <!-- body -->
 
@@ -121,7 +160,6 @@
     			<table>
             <thead>
                 <tr>
-                    <th>No</th>
                     <th>Berkas&nbsp;</th>
                     <th>Tanggal&nbsp;</th>
                     <th>Download&nbsp;</th>
@@ -130,10 +168,9 @@
             <tbody>
                 <!-- Isi data di tabel -->
                 <tr>
-                    <td>1</td>
                     <td>-</td>
                     <td>-</td>
-                    <td><a href="-" download="-">-</a></td>
+                    <td><a href="#" download="-">-</a></td>
                 </tr>
                 
             </tbody>
