@@ -1993,14 +1993,14 @@ padding-bottom: 20px;
 /* Gambar di Dalam Bingkai */
 .photo-box-pre img {
   width: 100%;
-  height: 100%; /* Atur tinggi agar seragam */
+  height: 90%; /* Atur tinggi agar seragam */
   object-fit: cover; /* Memotong gambar agar sesuai dengan kotak */
   display: block;
   border-bottom: 2px solid #08573A;
 }
 /* Judul Foto */
 .photo-box-pre h4 {
-  margin: 10px 0;
+  margin: 50px 0;
   font-size: 16px;
   color: #08573A;
   font-weight: bold;
@@ -2019,6 +2019,7 @@ padding-bottom: 20px;
 
   .photo-box-pre h4 {
     font-size: 14px;
+	  margin: 15px 0;
   }
 }
 
@@ -2029,6 +2030,7 @@ padding-bottom: 20px;
 
   .photo-box-pre h4 {
     font-size: 12px;
+	   margin: 15px 0;
   }
 }
 /* Kontainer kotak */
@@ -2038,7 +2040,8 @@ padding-bottom: 20px;
     gap: 20px; /* Jarak antar kotak */
     justify-content: center; /* Posisikan kotak di tengah */
     margin: 20px auto; /* Jarak luar atas dan bawah */
-    max-width: 50%; /* Batas lebar kontainer */
+    max-width: 90%; /* Batas lebar kontainer */
+	max-height: 80%; /* Batas lebar kontainer */
 }
 
 /* Kotak */
