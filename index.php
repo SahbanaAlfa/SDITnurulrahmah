@@ -46,7 +46,7 @@
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
-                    <a href="index.html"><img src="images/logo3.png" alt="#" /></a>
+                    <a href="index.php"><img src="images/logo3.png" alt="#" /></a>
                   </div>
                 </div>
               </div>
@@ -57,7 +57,7 @@
                 <div class="limit-box">
                   <nav class="main-menu ">
                     <ul class="menu-area-main col-xl-12">
-                      <li class="active"> <a href="index.html">beranda&nbsp;</a> </li>
+                      <li class="active"> <a href="index.php">beranda&nbsp;</a> </li>
                       <li> <a href="#2">Profil </a> </li>
                       <li> <a href="#1">program&nbsp;</a> </li>
                       <li> <a href="#learn">ekstrakulikuler&nbsp;</a> </li>
@@ -97,7 +97,7 @@
                   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                     <div class="images_box">
 						<div class="banner">
-  						<figure><img src="images/BANNER WEB.png"></figure>
+  						<figure><img src="images/BANNER WEB.png?v=<php echo time(); ?>"></figure>
 						</div>
                     </div>
                   </div>
