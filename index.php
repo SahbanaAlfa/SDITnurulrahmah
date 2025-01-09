@@ -193,27 +193,27 @@
 </div>
 	  <div class="photo-container">
   <div class="photo-box">
-    <img src="images/Prestasi/PRESTASI ATLET PANAHAN_2_11zon.jpg" alt="Photo 1">
+    <img src="images/Prestasi/PRESTASI ATLET PANAHAN_2_11zon.jpg?v=<php echo time(); ?>" alt="Photo 1">
     <h4>Prestasi Atlet Panahan</h4>
   </div>
   <div class="photo-box">
-    <img src="images/Prestasi/PRESTASI ATLET PENCAK SILAT_3_11zon.jpg" alt="Photo 2">
+    <img src="images/Prestasi/PRESTASI ATLET PENCAK SILAT_3_11zon.jpg?v=<php echo time(); ?>" alt="Photo 2">
     <h4>Prestasi Atlet Pencak Silat</h4>
   </div>
   <div class="photo-box">
-    <img src="images/Prestasi/PRESTASI EDITING VIDIO_5_11zon.jpg" alt="Photo 3">
+    <img src="images/Prestasi/PRESTASI EDITING VIDIO_5_11zon.jpg?v=<php echo time(); ?>" alt="Photo 3">
     <h4>Prestsi Editing Video</h4>
   </div>
   <div class="photo-box">
-    <img src="images/Prestasi/PRESTASI LOMBA PIDATO 3 BAHASA_6_11zon.jpg" alt="Photo 4">
+    <img src="images/Prestasi/PRESTASI LOMBA PIDATO 3 BAHASA_6_11zon.jpg?v=<php echo time(); ?>" alt="Photo 4">
     <h4>Prestasi Lomba Pidato 3 Bahasa</h4>
   </div>
 		  <div class="photo-box">
-    <img src="images/Prestasi/TERBAIK TAHFIDZ JUZ 1_7_11zon.jpg" alt="Photo 1">
+    <img src="images/Prestasi/TERBAIK TAHFIDZ JUZ 1_7_11zon.jpg?v=<php echo time(); ?>" alt="Photo 1">
     <h4>Tahfidz Juz 1 Terbaik</h4>
   </div>
   <div class="photo-box">
-    <img src="images/Prestasi/TERBAIK TAHFIDZ JUZ 30_1_11zon.jpg" alt="Photo 2">
+    <img src="images/Prestasi/TERBAIK TAHFIDZ JUZ 30_1_11zon.jpg?v=<php echo time(); ?>" alt="Photo 2">
     <h4>Tahfidz juz 30 Terbaik</h4>
   </div>
   </div>
