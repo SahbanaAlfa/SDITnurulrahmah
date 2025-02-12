@@ -86,7 +86,7 @@
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
                       <h1 style="font-weight: bold; text-align: center;">PENERIMAAN PESERTA DIDIK BARU</h1>
-						<h2 style="font-weight: bold; text-align: center; font-size: 35px;">GELOMBANG II</h2>
+						<h2 style="font-weight: bold; text-align: center; font-size: 35px;">GELOMBANG III</h2>
                       <p style="text-align: center;">TAHUN PELAJARAN 2025-2026&nbsp;</p>
                       	<div class="button-container">
     						<a href="https://docs.google.com/forms/d/1zUNeFZl73iEh62tUMBPvT6Q0YX-mGGEh7wTzetGTpYw/edit?usp=drive_open" class="btn">DAFTAR&nbsp;</a>
